@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="text2">1</p>
+    <script>
+        document.body.style.background = 'yellow'; 
+        setTimeout(() => {
+            document.body.style.background = 'gray'; 
+            var text2 = document.querySelector(".text2");
+            text2.textContent = "2";
+        }, 3000); 
+    </script>
+</body>
+</html>
